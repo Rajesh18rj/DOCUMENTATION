@@ -6,9 +6,11 @@
             <a href="{{ url('/') }}" class="flex items-center flex-no-shrink text-black mx-4">
                 @include("larecipe::partials.logo")
 
-                <p class="inline-block font-semibold mx-1 text-grey-dark">
-                    {{ config('app.name') }}
+                <p class="inline-block font-semibold mx-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
+                    R-JayS
                 </p>
+
+
             </a>
 
             <div class="switch">
