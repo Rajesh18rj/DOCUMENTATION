@@ -1,13 +1,28 @@
 # Alpine JS
+
+---
+
+- [Alpine JS](#section-1)
+- [Getting Started with JavaScript Basics](#section-2)
+- [Installation](#section-3) 
+- [X-data](#section-4)
+- [X-bind](#section-5)
+- [X-model](#section-6)
+- [X-show and X-if](#section-7)
+- [X-on](#section-8)
+- [X-ref and $refs](#section-9)
+
+---
+
+---
+
+<a name="section-1"></a>
+
 &nbsp;&nbsp;&nbsp; <span style="font-weight: 600; font-size: 16px; background: linear-gradient(135deg, #FF85C0, #A2A4FF, #D6A8FF); -webkit-background-clip: text; color: transparent; text-transform: capitalize; font-family: 'Arial', sans-serif; letter-spacing: 1px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);">
 Alpine JS
 </span> is a lightweight JavaScript framework designed for adding simple interactivity to web pages, especially in applications built with Laravel, Livewire, and Tailwind CSS. It provides reactive and declarative behavior using a minimal syntax, similar to Vue.js but without the need for a full build step.
 
-- [Alpine JS](#section-1)
 
-<a name="section-1"></a>
-
-[//]: # (## First Section)
 
 ---
 ### When to Use Alpine.js ?
@@ -28,6 +43,8 @@ Alpine JS
 ```
 ---
 <larecipe-progress type="success" :value="100"></larecipe-progress>
+
+<a name="section-2"></a>
 
 ## Getting Started with JavaScript
 
@@ -88,6 +105,8 @@ Once you're comfortable with basic JavaScript, you can try something like this:
 
 ---
 
+<a name="section-3"></a>
+
 # 1. Installation
 ---
 We can use CDN in Header file or
@@ -109,8 +128,11 @@ Alpine.start();
 
 ---
 
+<a name="section-4"></a>
+
 # 2.  x-data
 ---
+
 
 &nbsp;Everything in Alpine starts with the `x-data` directive.
 
@@ -193,6 +215,8 @@ We couldn't retrieve the value because the `x-data` value can only be used insid
 
 ---
 
+<a name="section-5"></a>
+
 # 3 x-bind
 
 ---
@@ -253,6 +277,8 @@ It allows you to dynamically update attributes like src, class, disabled, etc., 
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
 ---
+
+<a name="section-6"></a>
 
 # 4 x-model
 
@@ -346,6 +372,8 @@ if u change the color in select option, it will dynamically change the color ..
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
 ---
+
+<a name="section-7"></a>
 
 # 5. x-show and x-if
 
@@ -536,6 +564,7 @@ So, `x-show` hides, but `x-if` creates or removes the element entirely.
 
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
+<a name="section-8"></a>
 
 # 6. x-on
 
@@ -665,6 +694,8 @@ when i press the Say Hi Button , it showa Hello World alert Message.
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
 ---
+
+<a name="section-9"></a>
 
 # 7 x-ref and $refs
 
