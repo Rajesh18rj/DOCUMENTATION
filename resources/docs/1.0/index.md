@@ -1,2 +1,2 @@
 - ## Get Started
-    - [Overview](/{{route}}/{{version}}/overview)
+    - [Alpine JS](/{{route}}/{{version}}/alpine)

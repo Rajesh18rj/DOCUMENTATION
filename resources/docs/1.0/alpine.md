@@ -140,7 +140,7 @@ The paragraph `<p>` changes the text based on whether isOn is true or false: it 
 ---
 ##### Output::
 ---
-![Example 2](/docs/images/example1.png)
+![Example 2](/docs/images/alpine/example1.png)
 
 
 We can see the output..
@@ -163,7 +163,7 @@ We can see the output..
 ---
 ##### Output::
 ---
-![Example 3](/docs/images/example2.png)
+![Example 3](/docs/images/alpine/example2.png)
 We couldn't retrieve the value because the `x-data` value can only be used inside that specific `<div>` The key-value pair defined in x-data cannot be accessed outside of that `<div>`
 
 ---
@@ -187,7 +187,7 @@ We couldn't retrieve the value because the `x-data` value can only be used insid
 ---
 ##### Output::
 ---
-![Example 4](/docs/images/example3.png)
+![Example 4](/docs/images/alpine/example3.png)
 
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
@@ -338,7 +338,7 @@ So, think of x-text as a magic board that always updates to show what you type! 
 
 ```
 
-> Image :
+![Example 4](/docs/images/alpine/gray.png)
 
 
 if u change the color in select option, it will dynamically change the color ..
