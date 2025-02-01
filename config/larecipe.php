@@ -95,7 +95,7 @@ return [
     */
 
     'search'            => [
-        'enabled'       => false,
+        'enabled'       => true,
         'default'       => 'algolia',
         'engines'       => [
             'internal'  => [
@@ -107,6 +107,12 @@ return [
             ]
         ]
     ],
+
+    'css' => [
+        'https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap', // Poppins font
+    ],
+
+
 
     /*
     |--------------------------------------------------------------------------
@@ -121,15 +127,14 @@ return [
     */
 
     'ui'                 => [
-        'code_theme'     => 'light', // or: light
+        'code_theme'     => 'dark', // or: light
         'fav'            => '',     // eg: fav.png
         'fa_v4_shims'    => true, // Add FontAwesome v4 shims prevent BC break
         'show_side_bar'  => true,
         'colors'         => [
-            'primary'    => '#f54257',
-            'secondary'  => '#2b9cf2'
+            'primary'    => '#964159',
+            'secondary'  => '#6e3c6b'
         ],
-
         'theme_order'    => null // ['LaRecipeDarkTheme', 'customTheme']
     ],
 

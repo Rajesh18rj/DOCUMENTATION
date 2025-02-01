@@ -1,4 +1,5 @@
 <div class="fixed pin-t pin-x z-40">
+
     <div class="bg-gradient-primary text-white h-1"></div>
 
     <nav class="flex items-center justify-between text-black bg-navbar shadow-xs h-16">
@@ -6,8 +7,19 @@
             <a href="{{ url('/') }}" class="flex items-center flex-no-shrink text-black mx-4">
                 @include("larecipe::partials.logo")
 
-                <p class="inline-block font-semibold mx-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">
-                    R-JayS
+                <p class=" inline-block mr-2 ml-2 shadow-xs h-20 text-grey-lightest border-0 px-2 py-1 rounded-full">
+                    R-JayS <span><svg class="h-6 w-6 -m-1 " version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                      viewBox="0 0 512 512" xml:space="preserve">
+                                    <circle style="fill:#343940;" cx="256" cy="256" r="256"/>
+                                    <g>
+                                        <path style="fill:#b4c1d4;" d="M83.928,259.304L201.32,204.8v25.92l-88.776,38.88v0.488l88.8,38.888v25.92l-117.416-54.56
+                                            C83.928,280.336,83.928,259.304,83.928,259.304z"/>
+                                        <path style="fill:#b4c1d4;" d="M219.448,344.656l52.336-177.32h24.696l-52.336,177.32H219.448z"/>
+                                        <path style="fill:#b4c1d4;" d="M428.072,281.064L310.68,334.872v-25.92l90.736-38.888V269.6l-90.736-38.912V204.8l117.392,53.808
+                                            V281.064z"/>
+                                    </g>
+                                    </svg>
+                    </span>
                 </p>
 
 

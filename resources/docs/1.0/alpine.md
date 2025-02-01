@@ -14,8 +14,6 @@
 
 ---
 
----
-
 <a name="section-1"></a>
 
 &nbsp;&nbsp;&nbsp; <span style="font-weight: 600; font-size: 16px; background: linear-gradient(135deg, #FF85C0, #A2A4FF, #D6A8FF); -webkit-background-clip: text; color: transparent; text-transform: capitalize; font-family: 'Arial', sans-serif; letter-spacing: 1px; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);">
@@ -41,7 +39,7 @@ Alpine JS
     <p x-show="open">Hello, Alpine.js!</p>
 </div>
 ```
----
+
 <larecipe-progress type="success" :value="100"></larecipe-progress>
 
 <a name="section-2"></a>
@@ -57,6 +55,7 @@ Alpine JS
 let name = "Aaran";
 const age = 10;
 ```
+---
 
 ### Data Types: Strings, Numbers, Booleans, Arrays, Objects
 ```js
@@ -64,6 +63,7 @@ let isStudent = true;
 let colors = ["red", "blue", "green"];
 let user = { name: "John", age: 25 };
 ```
+---
 
 ### Functions: Code That Runs When Called
 ```js
@@ -72,6 +72,8 @@ function greet() {
 }
 ```
 
+---
+
 ### Events: Actions Like Clicks, Keypresses, etc.
 ```js
 document.querySelector("button").addEventListener("click", function() {
@@ -79,11 +81,14 @@ document.querySelector("button").addEventListener("click", function() {
 });
 ```
 
+---
+
 ### Practice JavaScript in the Browser Console
 Open the browser, right-click → Inspect → Console. Try typing:
 ```js
 console.log("Hello, JavaScript!");
 ```
+---
 
 ### Understand How JavaScript Works with HTML
 Example: A button that shows a message when clicked.
@@ -153,21 +158,25 @@ Alpine.start();
 When you click the button, `x-on:click="isOn = !isOn"` flips the state of the light. If it's on, it turns off; if it's off, it turns on.
 The paragraph `<p>` changes the text based on whether isOn is true or false: it shows "The light is on" or "The light is off."
 
+---
+
 ### Example 2
 ```html
 <div x-data="{name: 'Steve Rogers'}" class="bg-green-400 p-4 m-4 rounded">
     <span x-text="name"></span>
 </div>
 ```
----
+
 ##### Output::
----
+
 ![Example 2](/docs/images/alpine/example1.png)
 
 
 We can see the output..
 
 "What we have done here is store the name as a key-value pair in `x-data` and then retrieve it using the key in `x-text`."
+
+---
 
 ### Example 3
 "Now, let's try using the same key in another different `<div>` below and see if we can retrieve the value."
@@ -182,9 +191,9 @@ We can see the output..
     <span x-text="name"></span>
 </div>
 ```
----
+
 ##### Output::
----
+
 ![Example 3](/docs/images/alpine/example2.png)
 We couldn't retrieve the value because the `x-data` value can only be used inside that specific `<div>` The key-value pair defined in x-data cannot be accessed outside of that `<div>`
 
@@ -207,8 +216,9 @@ We couldn't retrieve the value because the `x-data` value can only be used insid
 "If we put it inside a main `<div>` and then include these two `<div>` elements within it, now both will be able to get the name value."
 
 ---
-##### Output::
----
+
+#### Output::
+
 ![Example 4](/docs/images/alpine/example3.png)
 
 <larecipe-progress type="success" :value="100"></larecipe-progress>
