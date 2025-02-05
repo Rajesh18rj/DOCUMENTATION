@@ -5,3 +5,23 @@
 [x-cloak] {
     display: none;
 }
+
+.btn {
+    background: linear-gradient(45deg, #ff4d4d, #ff7f7f, #f72585); /* Red, Light Red, Pink */
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+}
+
+/* Hover Effect */
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+    color: lightgoldenrodyellow ;
+}

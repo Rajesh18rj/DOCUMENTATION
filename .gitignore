@@ -6,7 +6,7 @@
 /storage/*.key
 /storage/pail
 /vendor
-!/vendor/binarytorch/larecipe-dark-theme
+!/vendor/binarytorch
 .env
 .env.backup
 .env.production
